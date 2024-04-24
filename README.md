@@ -2,7 +2,7 @@
 Building on the work of Sakitoshi and prurigro, I wrote a bash script to easily configure a Raspberry Pi 4 for output to a CRT TV through the headphone jack.
 
 On your raspberry pi 4, do a fresh install of the latest version of Retropie. Then, boot it, set up an internet connection,
-then go to onfig -> Raspi-Config -> Advanced Options -> GL Driver
+then go to config -> Raspi-Config -> Advanced Options -> GL Driver
 Select GL (Fake KMS) OpenGL desktop driver with fake KMS
 
 Then, either clone the repository onto your /boot folder (or anywhere on the SD card), or just drag and drop it onto 
